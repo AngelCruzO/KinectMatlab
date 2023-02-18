@@ -1,2 +1,5 @@
-# KinectMatlab
-# Conexion de Microsoft Kinect con Matlab
+# BodyScan
+
+# Configuración general
+
+# Instrucciones de uso
