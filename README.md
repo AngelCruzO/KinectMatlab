@@ -52,7 +52,8 @@ closepreview(depth);
 ```
 
 4 Si todo funciona bien se mostraran dos ventanas con las camaras funcionando
-![Prueba de camaras](..\images\camaras.png)
+
+![Prueba de camaras](KinectMatlab/images/camaras.png)
 
 > Nota: es caso de que algo funcione mal, checar la conexión y el codigo
 
