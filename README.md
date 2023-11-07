@@ -23,7 +23,7 @@ Instalación de drivers por separado
 # Diagrama de conexión
 Para conectar el Kinect a nuestro PC, basta con mirar el siguiente diagrama
 
-![Conexión](https://tinyurl.com/2lsde7lq)
+![conexion](images/conexion.png)
 
 # Prueba de funcionamiento
 
@@ -32,7 +32,7 @@ Para conectar el Kinect a nuestro PC, basta con mirar el siguiente diagrama
 2 Abrir Matlab
 
 3 Escribir el siguiente codigo en el command window
-```Matlab
+```matlab
 %Configuración y muestra de video camara de color
 color = videoinput('kinect',1);
 dataColor = getselectedsource(color);
@@ -53,35 +53,56 @@ closepreview(depth);
 
 4 Si todo funciona bien se mostraran dos ventanas con las camaras funcionando
 
-![Camaras](images/camara.png)
+![Camaras](images/camaras.png)
 
 > Nota: es caso de que algo funcione mal, checar la conexión y el codigo
 
 # Instrucciones de uso
-El proyecto consta de una aplicación grafica la cual monitorea los puntos obtenidos por parte de Kinect, esta se encuentra en la carpeta App. La ventana principal cuenta con cuatro partes:
+Existen dos maneras de utilizar el programa, Modificar programa y Instalación en ordenador personal; para ambas opciones es importante contar con los prerequisitos.
 
-- Muestra de video (camara de profundidad)
-- Muestra de esqueleto (grafica de puntos)
-- Panel de configuración
-	- Switch de encendido/apagado
-	- Perillas de configuración de color
-	- Area de texto para mensajes
-- Sistema de tabs
-	- Datos sobre marcha humana
-	- Monitoreo de puntos izquierda/derecha de articulaciones
-	- Angulos de articulaciones principales
+## Modificar programa
 
-Para utilizarlo es necesario:
+1 Clonar el repositorio en la ruta deseada
+
+```
+git clone https://github.com/AngelCruzO/KinectMatlab.git
+```
 
 1 Abrir Matlab
 
-2 Colocar en el command windows
-```
+2 Colocar en el command window
+```matlab 
 appdesigner
 ```
 
-3 Abrir el archivo GUIBiomecanica
+3 Abrir el archivo GUIBiomecanica desde la ruta donde se clono el repositorio
 
-4 Una vez abierto y cargado, dar clic en el icono Run (Triangulo verde)
+4 Se puede modificar tanto la vista grafica como la parte de codigó
 
-5 Switch en on
+> Se deja a consideración realizar pull request, para incluir modificaciones. En caso de contribuciones, favor de seguir las instrucciones para pull request.
+
+## Instalación en ordenador personal
+
+1 Ir a la sección de releases
+
+2 Descargar el ejecutable BodyScan.exe de la ultima versión (v1.9-alpha)
+
+3 Abrir la carpeta de descargas, dar doble clic en el ejecutable
+
+4 Seguir las instrucciones del instalador
+
+> Es recomendable marcar la opción para crear un acceso directo en el escritorio
+
+5 Si se creo el acceso directo, dar doble clic en el. En caso de no crearlo, buscar el programa de nombre BodyScan en el menu inicio
+
+6 Se mostrara la siguiente ventana, clic en iniciar
+
+7 Despues de unos segundo se mostrara la siguiente ventana
+
+![inicio](images/inicio.png)
+
+8 Para iniciar la adquisión, cambiar a "on" el switch, se empezaran a mostrar todos los datos en la interfaz
+
+![principal](images/principal.png)
+
+9 Para terminar el proceso, solo es cuestión de cambiar el switch a "off"
