@@ -1,5 +1,19 @@
 # BodyScan
-Es un software para el analisis de marcha humana, con el cual especialistas en rehabilitación o creación de protesis. Ya que puede obtener datos adecuados para este tipo de cosas.
+BodyScan es un software de analisis de movimiento, el cual se especializa en la marcha humana. Este adquirie 25 puntos que corresponden a las articulaciones del cuerpo humano, obtenidos con ayuda de un Microsoft Kinect de la consola Xbox One.
+
+Este proyecto se realizo como trabajo recepcional para titulación en la Universidad Autonoma de México. Este repositorio cuenta con los archivos necesarios para su funcionamiento, asi como la teoria y pendices necesarios, con los cuales se puede realizar actualizaciones al proyecto de manera libre, respetando al autor e incluyendo los cambios en un pull request. 
+
+A continución se proporciona la documentación asociada al proyecto:
+
+- [Analisis de requisitos](documents/ApendiceA.pdf)
+- [Diseño de Software](documents/ApendiceB.pdf)
+- [Diseño de UI (basico)](http://tinyurl.com/2dx6hujr)
+- [Videos de la evolución del proyecto](https://youtube.com/playlist?list=PLTw9BBx8QZ8eyed2LNUoxuHmq4bUNzzX9&si=s9hxFf0v7OTLN5Tj)
+- [Configuración general](documents/ApendiceC.pdf)
+- [Manual de usuario](documents/ApendiceD.pdf)
+- [Investigación](documents/investigacion.pdf)
+
+![logo](images/logo.png)
 
 # Prerequisitos
 Para poder ocupar de manera adecuada el software es necesario tener instalado:
