@@ -13,7 +13,7 @@ A continución se proporciona la documentación asociada al proyecto:
 - [Manual de usuario](documents/ApendiceD.pdf)
 - [Investigación](documents/investigacion.pdf)
 
-<img alt="logo" src="images/logo.png" width="200px" height="200px">
+<img alt="logo" src="images/logo.png" width="400px" height="400px">
 
 # Prerequisitos
 Para poder ocupar de manera adecuada el software es necesario tener instalado:
